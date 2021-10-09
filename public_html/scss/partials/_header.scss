@@ -1,0 +1,36 @@
+$navbar-toggler-bg: $gray-900;
+
+header{
+    .navbar-toggler{
+        span{
+            display: block;
+            width: 30px;
+            height: 3px;
+            margin-bottom: 5px;
+            background-color: $navbar-toggler-bg;
+            
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+    .navbar-nav{
+        a{
+            font-size: 1.4rem;
+            line-height: 1.7rem;
+            padding: 10px;
+            text-align: center;
+        }
+    }
+}
+
+@media(min-width:992px){
+    header{
+        .navbar-nav{
+            li{
+                margin-left: 72px;
+            }
+        }
+    }
+}

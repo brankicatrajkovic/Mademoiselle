@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Bodoni Book';
+  src: url('Bodoni Book/Bodoni Book.woff2') format('woff2'),
+       url('Bodoni Book/Bodoni Book.woff') format('woff'),
+       url('Bodoni Book/Bodoni Book.ttf')  format('truetype');
+}
+
+body {
+  font-family: 'Bodoni Book', sans-serif;
+}

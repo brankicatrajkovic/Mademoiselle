@@ -1,0 +1,25 @@
+$base-font: $lato;
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: $base-font;
+}
+
+main{
+    padding-top: 54px;
+}
+
+@media(min-width:576px){
+    main{
+        padding-top: 57px;
+    }
+}
+
+@media(min-width:992px){
+    main{
+        padding-top: 77px;
+    }
+}
