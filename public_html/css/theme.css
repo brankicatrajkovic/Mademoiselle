@@ -9976,15 +9976,17 @@ html {
   margin-top: -60px;
 }
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : Sep 26, 2021, 10:13:11 PM
-    Author     : Korisnik
-*/
+.about .container {
+  padding-top: 91px;
+}
+
+.about .about-content {
+  background: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: -60px;
+}
+
 .blog h2 {
   padding: 111px 0 56px;
 }
@@ -9995,6 +9997,11 @@ and open the template in the editor.
 
 .blog h3 {
   padding: 58px 0 35px;
+}
+
+.blog p {
+  font-size: 16px;
+  line-height: 23px;
 }
 
 footer {
@@ -10023,41 +10030,66 @@ footer .copyright a {
   color: #1E1E1E;
 }
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : Sep 26, 2021, 10:14:04 PM
-    Author     : Korisnik
-*/
+.blog-single .container {
+  padding: 202px 0 74px;
+}
+
+.blog-single span {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+}
+
+.blog-single .blog-single-content p {
+  margin-bottom: 30px;
+}
+
+.blog-single .tag-title {
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.blog-single .blog-tags {
+  padding-top: 21px;
+}
+
 .services h2 {
   padding: 56px 0 58px;
 }
 
 .services p {
   padding: 143px 0 36px;
+  font-size: 36px;
+  line-height: 44px;
 }
 
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : Sep 26, 2021, 10:14:46 PM
-    Author     : Korisnik
-*/
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/*
-    Created on : Sep 26, 2021, 10:15:15 PM
-    Author     : Korisnik
-*/
+.service-single .container {
+  padding: 170px 0 181px;
+}
+
+.service-single .container p {
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.contact .container {
+  padding-top: 102px;
+}
+
+.info {
+  background-color: #ECD9D9;
+  padding: 63px 0 60px;
+}
+
+.info p {
+  font-size: 24px;
+  line-height: 25px;
+}
+
+.info p a {
+  color: #1E1E1E;
+}
+
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates

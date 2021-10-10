@@ -58,13 +58,13 @@ and open the template in the editor.
                                     <a class="nav-link text-uppercase" href="about.html">about<span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active text-uppercase" href="services.html">services</a>
+                                    <a class="nav-link text-uppercase" href="services.html">services</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link text-uppercase" href="blog.html">blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link text-uppercase" href="contact.html">contact</a>
+                                    <a class="nav-link active text-uppercase" href="contact.html">contact</a>
                                 </li>
 
                             </ul>
@@ -78,73 +78,60 @@ and open the template in the editor.
         <main>
 
 
-            <section class="lead-section"  style="background-image: url(img/about/home.png)">
-                <div class="container"> 
-                    <h1 class="text-center text-white">
-                        About
-                    </h1>
-                </div>
-            </section>
-
-            <section class="about">
+            <section class="contact">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-md-8">
-                            <h2>ADDICTED TO BEAUTY</h2>
-                            <p class="pt-5 pb-5">
-                                The standard chunk of Lorem Ipsum used since the 
-                                1500s is reproduced below for those interested. 
-                                Sections 1.10.32 and 1.10.33 from "de Finibus 
-                                Bonorum et Malorum" by Cicero are also reproduced 
-                                in their exact original form, accompanied by English 
-                                from the 1914 translation by H. Rackham.
-                            </p>
-                            <img src="img/about/picture_01.png" alt=""/>
-                            <p class="pt-5 pb-5">
-                                It is a long established fact that a reader will 
-                                be distracted by the readable content of a page 
-                                when looking at its layout. The point of using 
-                                Lorem Ipsum is that it has a more-or-less normal 
-                                distribution of letters, as opposed to using 
-                                'Content here, content here', making it look like 
-                                readable English. Many desktop publishing packages 
-                                and web page editors now use Lorem Ipsum as their 
-                                default model text, and a search for 'lorem ipsum' 
-                                will uncover many web sites still in their infancy. 
-                                Various versions have evolved over the years, 
-                                sometimes by accident, sometimes on purpose 
-                                (injected humour and the like).
-                            </p>
+                        <div class="col-12 col-md-6">
+                            <h2 class="text-uppercase pb-5">Please contact us using the form bellow</h2>
+                            <form class="contact-form" action="" method="get">
+                                <div class="form-group">
+                                    <input type="text" name="name" value="" class="form-control" placeholder="Name and surname*">
+                                    <div class="error-msg"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <input type="email" name="email" value="" class="form-control" placeholder="Email address*">
+                                    <div class="error-msg"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <input type="text" name="subject" value="" class="form-control" placeholder="Subject*">
+                                    <div class="error-msg"></div>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <textarea name="message" placeholder="Enter your message*" class="form-control" rows="7"></textarea>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <button class="submit text-uppercase px-5 py-3" name="send" value="true">Send message</button>
+                                </div>
+                                
+                            </form>
                         </div>
-
-                        <div class="col-12 col-md-4">
-                            <textarea class="fas fa-search">Search</textarea>
+                        
+                        <div class="col-12 col-md-5">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28905.64512807956!2d151.18400688207814!3d-33.85554234305847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2z0KHQuNC00L3QtdGYINCd0L7QstC4INCI0YPQttC90Lgg0JLQtdC70YEsINCQ0YPRgdGC0YDQsNC70LjRmNCw!5e0!3m2!1ssr!2srs!4v1633813638581!5m2!1ssr!2srs" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                         </div>
-                        <div class="col-12 col-md-4 text-center">
-                            <img src="img/home/picture_03.png" alt=""/>
-                            <article class="about-content">
-                                <p>09/09/2019</p>
-                                <p class="text-uppercase">Luxury Watches Jewelry Made For Everyday Attire</p>
-                            </article>
-                        </div>
-                        <div class="col-12 col-md-4 text-center">
-                            <img src="img/blog/picture_09.png" alt=""/>
-                            <article class="about-content">
-                                <p>09/08/2019</p>
-                                <p class="text-uppercase">Free Beauty Samples What They Are And How To Find Them</p>
-                            </article>
-                        </div>
-                        <div class="col-12 col-md-4 text-center">
-                            <img src="img/blog/picture_12.png" alt=""/>
-                            <article class="about-content">
-                                <p>02/08/2019</p>
-                                <p class="text-uppercase">Aiming For Higher The Mastopexy</p>
-                            </article>
-                        </div>
-
+                        
+                       
                     </div>
                 </div>
             </section>
+            
+            
+            <section class="info text-center">
+                <div class="container">
+                    <p class="info-address">146 Douglas Dale Suite 343</p>
+                    <p class="info-phone">
+                        <a href="tel:560-748-5959">560-748-5959</a>
+                    </p>
+                    <p class="info-email">
+                        <a href="mailto:cullen_mueller@yahoo.com">cullen_mueller@yahoo.com</a>
+                    </p>
+                </div>
+            </section>
+
 
 
 
